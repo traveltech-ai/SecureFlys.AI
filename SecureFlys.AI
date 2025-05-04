@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureFlys.AI – Travel with Confidence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .feature-card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    .cta {
+      text-align: center;
+      background-color: #2563eb;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    .cta button {
+      padding: 0.75rem 1.5rem;
+      background-color: white;
+      color: #1e3a8a;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SecureFlys.AI</h1>
+    <p>AI-powered travel fraud protection. Verify agents, stay informed, and travel with confidence.</p>
+  </header>
+
+  <section class="section">
+    <h2>Why SecureFlys.AI?</h2>
+    <p>Every day, thousands fall victim to fake travel agents—especially via WhatsApp and social media. SecureFlys.AI protects you using advanced artificial intelligence and global travel data insights.</p>
+  </section>
+
+  <section class="section features">
+    <div class="feature-card">
+      <h3>✅ Scam Checker</h3>
+      <p>Enter a WhatsApp number or agent name to check scam alerts and history.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🛡️ AI Trust Score</h3>
+      <p>Our AI assigns a risk score based on verified activity, patterns, and user reports.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🌍 Fraud Hotspot Map</h3>
+      <p>View real-time maps of scam-prone areas across countries and cities.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔒 Verified Booking System</h3>
+      <p>Only make payments to trusted and verified agents using our secure process.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Target Markets</h2>
+    <p>Phase 1: Pakistan, Saudi Arabia, UAE, Nigeria<br>Phase 2: Global Expansion</p>
+
+    <h2>Use Cases</h2>
+    <ul>
+      <li>Student visas</li>
+      <li>Hajj & Umrah travel</li>
+      <li>Job and work visas</li>
+      <li>Low-budget group tours</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Ready for safer travel?</h2>
+    <p>Start verifying travel agents and book with confidence today.</p>
+    <button>Check Agent Now</button>
+  </section>
+
+  <footer>
+    &copy; 2025 SecureFlys.AI – Built in Pakistan for the world.
+  </footer>
+</body>
+</html>
